@@ -4,7 +4,7 @@ public class BmiService {
 
         float index;
 
-        index = kilo/(metres*metres);
+        index = kilo / (metres * metres);
         return (int) index;
 
     }
